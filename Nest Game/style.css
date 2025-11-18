@@ -1,0 +1,30 @@
+body{
+    margin: auto;
+}
+.nav-bar{
+    display: flex;
+    margin:0;
+    height: 4.5rem;
+    max-width:auto;
+    align-items: center;
+    background-color: #D9D9D9;
+    .icon img{
+        display: flex;
+        height: 6rem;
+    }
+}
+.nav-2{
+    display: flex;
+    margin: 0;
+    height: 4.5rem;
+    max-width: auto;
+    gap: 1rem;
+    padding-left:1rem ;
+    text-align: center;
+    background-color: #8E90B2;
+    .nav-manu-info{
+        display: flex;
+        margin-left: 10rem;
+        gap: 2rem   ;
+    }
+}
