@@ -97,17 +97,13 @@ body{
         background-color: antiquewhite;
     }
 }
-<<<<<<< HEAD
-
 .header-best-seller {
     font-size: 4rem;
     color: black;
     padding-left: 2rem;
 }
-
-=======
 /*หน้า ผู้เล่นเดี่ยว*/
->>>>>>> 98f394562b7ca32e8d30653ea4f1b96728b1f8bf
+
 .list-product-sell {
     margin: 1rem auto;
     display: grid;
