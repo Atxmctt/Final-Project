@@ -1,12 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap');
 
 body{
-<<<<<<< HEAD
     margin: auto;
     font-family: "Noto Sans Thai", sans-serif;
-=======
     margin: 0 auto;
->>>>>>> 98f394562b7ca32e8d30653ea4f1b96728b1f8bf
 } /* navbar ตัวแถบค้นหา */
 .nav-bar{
     display: flex;
