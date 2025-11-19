@@ -3,6 +3,7 @@
 body{
     margin: auto;
     font-family: "Noto Sans Thai", sans-serif;
+    background-color: rgb(86, 72, 123);
 } /* navbar ตัวแถบค้นหา */
 .nav-bar{
     display: flex;
