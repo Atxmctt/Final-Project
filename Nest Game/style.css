@@ -430,8 +430,9 @@ body {
 
 /* หัวข้อ */
 #loginBox h3 {
+  font-size: 2rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #000000;
 }
 
 /* Input fields */
@@ -448,7 +449,7 @@ body {
 
 #loginBox input[type="text"]:focus,
 #loginBox input[type="password"]:focus {
-  border-color: #6c5ce7;
+  border-color: #7a5ce7;
   box-shadow: 0 0 5px rgba(108, 92, 231, 0.5);
   outline: none;
 }
