@@ -350,9 +350,25 @@ body {
   height: 20rem;
 }
 
+<<<<<<< HEAD
 .login:hover {
   transform: scale(1.1);
   cursor: pointer;
+=======
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+>>>>>>> 71ff325af5e4d03fc8651877d5dc88d944021b34
 }
 
 #loginPopup {
