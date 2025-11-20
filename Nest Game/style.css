@@ -24,6 +24,10 @@ body {
   display: flex;
   height: 10rem;
 }
+.imgin {
+  margin: auto;
+  display: flex;
+}
 
 .nav-search {
   display: flex;
@@ -106,6 +110,12 @@ body {
   border: 1px solid #be7d7d;
   border-radius: 1rem;
   background-color: antiquewhite;
+}
+
+nav li{
+  display: inline;
+  margin: 30px;
+  font-size: 32px;
 }
 
 /* ================= FOOTER ================= */
