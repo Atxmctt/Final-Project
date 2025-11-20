@@ -123,7 +123,6 @@ nav li{
   background-color: #5b5b5b;
   color: white;
   padding: 2rem 3rem;
-  font-size: 1.7rem;
 }
 
 .footer-container {
@@ -131,13 +130,13 @@ nav li{
   justify-content: space-between;
   gap: 3rem;
 }
-
-.footer-left,
-.footer-right {
-  width: 50%;
+.footer-right{
+  font-size: 25px;
+}
+.footer-left {
+  width: 80%;
 }
 
-/* ===== LOGO + TEXT SIDE BY SIDE ===== */
 .footer-contract-section {
   display: flex;
   align-items: flex-start;
@@ -149,16 +148,32 @@ nav li{
 }
 
 .footer-logo {
-  width: 250px;
-  height: auto;
-  margin: 0;
+  width: 200px;
+
 }
 
 .footer-description {
   margin-bottom: 15rem;
-  line-height: 1.6;
+  /* line-height: 2rem; */
+  font-size: 1.5rem;
+
 }
 
+.footer-copy {
+  text-align: center;
+  padding-top: 1.5rem;
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.footer-contract-section {
+  text-align: left;
+  padding-right: 1rem;
+  border-right: 1px solid #ccc;
+  margin-right: 2rem;
+  height: 20rem;
+}
 /* Icons */
 .payment-icons,
 .contact-icons {
@@ -180,21 +195,6 @@ nav li{
   height: 35px;
   border-radius: 50%;
   background-color: #d9d9d9;
-}
-
-.footer-copy {
-  text-align: center;
-  padding-top: 1.5rem;
-  border-top: 1px solid #ccc;
-  margin-top: 2rem;
-}
-
-.footer-contract-section {
-  text-align: left;
-  padding-right: 1rem;
-  border-right: 1px solid #ccc;
-  margin-right: 2rem;
-  height: 20rem;
 }
 
 .header-best-seller {
@@ -339,28 +339,6 @@ nav li{
   color: #eaa5ff;
 }
 
-/* ===== LOGO + TEXT SIDE BY SIDE ===== */
-.footer-contract-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  padding-right: 1rem;
-  border-right: 1px solid #ccc;
-  margin-right: 2rem;
-  text-align: left;
-}
-
-.footer-logo {
-  width: 250px;
-  height: auto;
-  margin: 0;
-}
-
-.footer-description {
-  margin-bottom: 15rem;
-  line-height: 1.6;
-  font-size: 18px;
-}
 
 /* Icons */
 .payment-icons,
@@ -386,20 +364,6 @@ nav li{
   background-color: #d9d9d9;
 }
 
-.footer-copy {
-  text-align: center;
-  padding-top: 1.5rem;
-  border-top: 1px solid #ccc;
-  margin-top: 2rem;
-}
-
-.footer-contract-section {
-  text-align: left;
-  padding-right: 1rem;
-  border-right: 1px solid #ccc;
-  margin-right: 2rem;
-  height: 20rem;
-}
 
 /* mon login */
 .login:hover {
@@ -448,6 +412,51 @@ nav li{
 #closeBtn:hover {
   color: red;
   transform: scale(1.2);
+}
+
+#loginBox h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+#loginBox input[type="text"],
+#loginBox input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+#loginBox input[type="text"]:focus,
+#loginBox input[type="password"]:focus {
+  border-color: #7a5ce7;
+  box-shadow: 0 0 5px rgba(108, 92, 231, 0.5);
+  outline: none;
+}
+
+#loginBox button {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 10px;
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+#loginBox button:hover {
+  background-color: #341f97;
+}
+
+a{
+  text-decoration: none;
 }
 
 /* phoom signin */
@@ -530,52 +539,4 @@ nav li{
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
-}
-
-/* หัวข้อ */
-#loginBox h3 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #000000;
-}
-
-/* Input fields */
-#loginBox input[type="text"],
-#loginBox input[type="password"] {
-  width: 100%;
-  padding: 10px 12px;
-  margin: 8px 0;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  box-sizing: border-box;
-  transition: border 0.3s, box-shadow 0.3s;
-}
-
-#loginBox input[type="text"]:focus,
-#loginBox input[type="password"]:focus {
-  border-color: #7a5ce7;
-  box-shadow: 0 0 5px rgba(108, 92, 231, 0.5);
-  outline: none;
-}
-
-/* ปุ่ม Submit */
-#loginBox button {
-  width: 100%;
-  padding: 10px 0;
-  margin-top: 10px;
-  background-color: #6c5ce7;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s;
-}
-
-#loginBox button:hover {
-  background-color: #341f97;
-}
-
-a{
-  text-decoration: none;
 }
