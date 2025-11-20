@@ -27,15 +27,23 @@ const loginPopup = document.getElementById("loginPopup");
 const loginBox = document.getElementById("loginBox");
 const closeBtn = document.getElementById("closeBtn");
 
+// close popup when clicking "ตกลง" (login submit)
+const loginSubmit = document.getElementById("loginSubmit");
+if (loginSubmit) {
+  loginSubmit.addEventListener("click", (e) => {
+    e.preventDefault();
+    closeLogin();
+  });
+}
+
 loginIcon.addEventListener("click", () => {
   loginPopup.style.display = "flex";
-
+  
   setTimeout(() => {
     loginBox.style.opacity = "1";
     loginBox.style.transform = "translateY(0)";
   }, 10);
 });
-
 closeBtn.addEventListener("click", closeLogin);
 
 loginPopup.addEventListener("click", (e) => {
@@ -55,6 +63,13 @@ const signinIcon = document.querySelector(".signin");
 const signinPopup = document.getElementById("signinPopup");
 const signinBox = document.getElementById("signinBox");
 const closepop = document.getElementById("closepop");
+
+if (signinSubmit) {
+  signinSubmit.addEventListener("click", (f) => {
+    f.preventDefault();
+    closesignin();
+  });
+}
 
 signinIcon.addEventListener("click", () => {
   signinPopup.style.display = "flex";
