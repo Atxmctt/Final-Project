@@ -121,6 +121,17 @@ nav li{
   font-size: 32px;
 }
 
+#navgame{
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 12px;
+  padding: 12px 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  max-width: 1250px;
+  margin: 1rem auto;
+  align-items: center;
+}
+
 /* ================= FOOTER ================= */
 .footer {
   background-color: transparent; /* ทำให้พื้นหลังโปร่งใส */
@@ -161,7 +172,7 @@ nav li{
 .footer-description {
   margin-bottom: 15rem;
   /* line-height: 2rem; */
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
 }
 
