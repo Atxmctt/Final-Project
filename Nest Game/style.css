@@ -3,7 +3,9 @@
 body {
   margin: auto;
   font-family: "Noto Sans Thai", sans-serif;
-  background: linear-gradient(to bottom, #653d80 0%, #693581 100%);
+  background:  url("img/bg.gif") no-repeat;
+  background-size: cover;
+
 }
 /* navbar ตัวแถบค้นหา */
 .nav-bar {
