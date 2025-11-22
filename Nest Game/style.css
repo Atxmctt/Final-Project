@@ -121,7 +121,7 @@ nav li{
 
 /* ================= FOOTER ================= */
 .footer {
-  background-color: #5b5b5b;
+  background-color: #888888;
   color: white;
   padding: 2rem 3rem;
 }
@@ -149,7 +149,7 @@ nav li{
 }
 
 .footer-logo {
-  width: 200px;
+  width: 300px;
 
 }
 
@@ -162,9 +162,9 @@ nav li{
 
 .footer-copy {
   text-align: center;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   border-top: 1px solid #ccc;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 1rem;
 }
 
