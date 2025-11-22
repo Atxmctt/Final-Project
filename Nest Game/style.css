@@ -7,6 +7,7 @@ body {
   background-size: cover;
 
 }
+
 /* navbar ตัวแถบค้นหา */
 .nav-bar {
   display: flex;
@@ -25,6 +26,7 @@ body {
   display: flex;
   height: 10rem;
 }
+
 .imgin {
   margin: auto;
   display: flex;
@@ -34,7 +36,7 @@ body {
   display: flex;
   position: relative;
   padding-left: 2rem;
-  width: 29rem;
+  width: 40rem;
 }
 
 .lang {
@@ -131,9 +133,11 @@ nav li{
   justify-content: space-between;
   gap: 3rem;
 }
+
 .footer-right{
   font-size: 25px;
 }
+
 .footer-left {
   width: 80%;
 }
@@ -175,6 +179,7 @@ nav li{
   margin-right: 2rem;
   height: 20rem;
 }
+
 /* Icons */
 .payment-icons,
 .contact-icons {
@@ -213,7 +218,6 @@ nav li{
   margin: 0 auto;
   width: auto;
   height: 40rem;
-
 }
 
 .show {
@@ -341,7 +345,6 @@ nav li{
   color: #eaa5ff;
 }
 
-
 /* Icons */
 .payment-icons,
 .contact-icons {
@@ -365,7 +368,6 @@ nav li{
   border-radius: 50%;
   background-color: #d9d9d9;
 }
-
 
 /* mon login */
 .login:hover {
@@ -394,7 +396,6 @@ nav li{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   position: relative;
   text-align: center;
-
   opacity: 0;
   transform: translateY(-15px);
   transition: 0.2s ease;
@@ -418,6 +419,7 @@ nav li{
 
 #loginBox h3 {
   font-size: 2rem;
+  margin-top: 10px;
   margin-bottom: 20px;
   color: #000000;
 }
@@ -462,7 +464,6 @@ a {
 }
 
 /* phoom signin */
-
 #signinPopup {
   position: fixed;
   top: 0;
@@ -484,7 +485,6 @@ a {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   position: relative;
   text-align: center;
-
   opacity: 0;
   transform: translateY(-15px);
   transition: 0.2s ease;
@@ -527,6 +527,7 @@ a {
 #signinBox h3 {
   font-size: 2rem;
   margin-bottom: 20px;
+  margin-top: 10px;
   color: #000000;
 }
 
