@@ -1,0 +1,130 @@
+body {
+    margin: auto;
+    align-items: center;
+    background: url("img/art\ pixel\ GIF.gif") no-repeat;
+    background-size: 120%;
+    background-position: 50%;
+    background-position: bottom;
+    display: flex;
+}
+
+.in-for-g {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    width: 1300px;
+    height: auto;
+    padding: 3rem;
+    margin: 3rem auto;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #686ce0f1;
+}
+
+.in-for-g h1 {
+    margin-right: 0;
+}
+
+.in-put-g {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 0;
+}
+
+.in-for-g.in-for-g img {
+    width: 85%;
+    height: 340px;
+    border-radius: 1rem;
+}
+
+.in-put-videlo {
+    display: block;
+    font-size: 1rem;
+}
+
+.in-put-youtobe {
+    margin-top: 3.6rem;
+}
+
+.in-put-youtobe iframe {
+    width: 550px;
+    height: 290px;
+    border-radius: 1rem;
+
+}
+
+.back {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    height: 40px;
+    width: 120px;
+    border-radius: 1rem;
+    padding: 2px;
+}
+
+.back:hover {
+    background-color: #d9b7f9;
+}
+
+.back a {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin: auto;
+    font-size: 20px;
+    color: #551a8b;
+    text-decoration: none;
+
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
+}
+
+.pris {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.pris p {
+    font-size: 24px;
+    margin-left: 1rem;
+    margin-top: 16px;
+    width: 130px;
+    height: 30px;
+    border-radius: 1rem;
+    border: 2px solid rgb(9, 9, 9);
+    color: rgb(232, 232, 232);
+    background-color: red;
+    text-shadow: 3px 1px 1px black;
+}
+
+.pris h2 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+.buy-now {
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.buy-now:hover {
+    color: white;
+    background-color: blueviolet;
+    transition: 0.3s ease;
+}
+
+/* garry imgs only */
+.infor-img {
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 500px;
+    height: 400px;
+}
