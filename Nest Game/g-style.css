@@ -1,11 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mitr:wght@200;300;400;500;600;700&family=Noto+Sans+Thai:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
 body {
+    font-family: "Noto Sans Thai", sans-serif;
     margin: auto;
     align-items: center;
     background: url("img/art\ pixel\ GIF.gif") no-repeat;
     background-size: 120%;
     background-position: 50%;
-    background-position: bottom;
+    background-position: center;
     display: flex;
+    color: white;
+}
+
+body h1 {
+    font-size: 2.5rem;
+}
+
+.pris .buy h2 {
+    color: #28a745;
 }
 
 .in-for-g {
@@ -18,7 +30,8 @@ body {
     margin: 3rem auto;
     text-align: center;
     border-radius: 1rem;
-    background-color: #686ce0f1;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
 }
 
 .in-for-g h1 {
@@ -35,7 +48,9 @@ body {
 .in-for-g.in-for-g img {
     width: 85%;
     height: 340px;
-    border-radius: 1rem;
+    display: block;
+    margin: auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6); /* เงาเข้ม ด้านหลัง */
 }
 
 .in-put-videlo {
@@ -50,7 +65,6 @@ body {
 .in-put-youtobe iframe {
     width: 550px;
     height: 290px;
-    border-radius: 1rem;
 
 }
 

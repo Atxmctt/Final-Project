@@ -29,7 +29,7 @@ body {
 }
 
 .imgin {
-  margin: auto;
+  margin: auto; 
   display: flex;
 }
 
@@ -565,4 +565,8 @@ a {
 .market:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+.discount {
+    color: red;
 }
