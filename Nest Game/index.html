@@ -57,7 +57,38 @@
           <p>ภาษา</p>
         </a>
       </div>
-      <div class="market"><i class="fa-solid fa-basket-shopping"></i></div>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .market {
+            font-size: 40px;
+            cursor: pointer;
+        }
+    </style>
+<body>
+<div class="market" onclick="goToCart()">
+    <i class="fa-solid fa-basket-shopping"></i>
+</div>
+
+<script>
+    function addToCart(id, name, price) {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
+        let item = cart.find(i => i.id === id);
+
+        if (item) {
+            item.qty += 1;
+        } else {
+            cart.push({ id, name, price, qty: 1 });
+        }
+
+        localStorage.setItem("cart", JSON.stringify(cart));
+        alert(`${name} ถูกเพิ่มลงตะกร้าแล้ว`);
+    }
+
+    function goToCart() {
+        window.location.href = "cart.html"; // ชื่อไฟล์ตะกร้าสินค้า
+    }
+</script>
+
       <div class="like"><i class="fa-solid fa-heart"></i></div>
       <div class="login"><i class="fa-solid fa-right-to-bracket"></i></div>
     </div>
